@@ -128,7 +128,7 @@ const LandingPage = () => {
 
         {/* Social proof */}
         <p className="mt-10 text-sm text-gray-500">
-          Trusted by <span className="text-[#3ECF8E]">9M+</span> hackathon participants worldwide
+          Trusted by <span className="text-[#3ECF8E]">many</span> hackathon participants worldwide
         </p>
       </div>
 

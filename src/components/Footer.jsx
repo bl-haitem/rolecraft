@@ -1,4 +1,4 @@
-import { Github, Instagram, Mail } from 'lucide-react';
+import { Linkedin, Mail, Link } from 'lucide-react'; // Changed Github and Instagram to Linkedin and Link
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -22,22 +22,22 @@ const Footer = () => {
             <h3 className="text-[#FAFAFA] font-semibold mb-4">Connect</h3>
             <div className="flex space-x-6">
               <a
-                href="https://github.com/bl-haitem"
+                href="https://haitem-belaib-portfolio.web.app/" // Portfolio link
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#FAFAFA]/70 hover:text-[#3ECF8E] transition-colors duration-200 flex flex-col items-center"
               >
-                <Github className="h-6 w-6 mb-1" />
-                <span className="text-xs">GitHub</span>
+                <Link className="h-6 w-6 mb-1" /> {/* Changed to Link icon for portfolio */}
+                <span className="text-xs">Portfolio</span>
               </a>
               <a
-                href="https://www.instagram.com/bl._.haitem?igsh=MWZ2YWlhazJsazhsOQ=="
+                href="https://www.linkedin.com/in/haitem-belaib-61b621353/" // LinkedIn link
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-[#FAFAFA]/70 hover:text-[#3ECF8E] transition-colors duration-200 flex flex-col items-center"
               >
-                <Instagram className="h-6 w-6 mb-1" />
-                <span className="text-xs">Instagram</span>
+                <Linkedin className="h-6 w-6 mb-1" /> {/* Changed to Linkedin icon */}
+                <span className="text-xs">LinkedIn</span>
               </a>
               <a
                 href="mailto:haitembelaib@gmail.com"

@@ -54,14 +54,14 @@ const LandingPage = () => {
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://rolecraft.vercel.app" />
-        <meta property="og:image" content="https://rolecraft.vercel.app/l.png" />
+        <meta property="og:image" content="https://rolecraft.vercel.app/og-cover.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="RoleCraft | Find Your Perfect Hackathon Role" />
         <meta
           name="twitter:description"
           content="Discover your ideal hackathon role with RoleCraft – the smartest way to build your team."
         />
-        <meta name="twitter:image" content="https://rolecraft.vercel.app/l.png" />
+        <meta name="twitter:image" content="https://rolecraft.vercel.app/og-cover.png" />
       </Helmet>
 
       {/* Background decorative elements */}

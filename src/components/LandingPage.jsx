@@ -36,7 +36,7 @@ const LandingPage = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-[#121212] text-white relative overflow-hidden">
       <Helmet>
-        <title>RoleCraft | Find Your Perfect Hackathon Role</title>
+        <title>RoleCraft</title>
         <meta
           name="description"
           content="RoleCraft helps you find your ideal hackathon role: Developer, Designer, Researcher, and more. Trusted by 9M+ hackers."
